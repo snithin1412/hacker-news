@@ -8,11 +8,11 @@ const Footer = () => {
        
         <center>
             <span className="yclinks">
-            <a href="newsguidelines.html">Guidelines</a>
-            | <a href="newsfaq.html">FAQ</a>
+            <a href="/static/newsguidelines.html">Guidelines</a>
+            | <a href="/static/newsfaq.html">FAQ</a>
             | <a href="lists">Lists</a>
             | <a href="https://github.com/HackerNews/API">API</a>
-            | <a href="security.html">Security</a>
+            | <a href="/static/security.html">Security</a>
             | <a href="http://www.ycombinator.com/legal/">Legal</a>
             | <a href="http://www.ycombinator.com/apply/">Apply to YC</a>
             | <a href="mailto:hn@ycombinator.com">Contact</a>

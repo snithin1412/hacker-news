@@ -82,3 +82,14 @@ form {
   margin-block-end: 1em;
 }
 
+a:link {
+  color: #000000;
+  text-decoration: none;
+}
+
+td {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 10pt;
+  color: #828282;
+}
+

@@ -11,7 +11,7 @@ const Header = () => {
                 <tbody>
                     <tr>
                         <td style={{width:'18px', paddingRight:'4px'}}>
-                            <Link to="top"><img src={logo} width="18" height="18" style={{border:'1px white solid'}} /></Link>
+                            <Link to="top"><img src={logo} width="18" height="18" style={{border:'1px white solid'}} alt="Logo"/></Link>
                         </td>
                         <td style={{lineHeight:'12pt', height:'10px'}}>
                             <span className="pagetop"><b className="hnname"><Link to="top">Hacker News</Link></b>

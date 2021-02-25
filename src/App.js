@@ -6,6 +6,7 @@ import Newest from './components/stories/Newest';
 import Ask from './components/stories/Ask';
 import Show from './components/stories/Show';
 import Jobs from './components/stories/Jobs';
+import Lists from './components/common/Lists';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path="/ask"><Ask /></Route>
             <Route path="/show"><Show /></Route>
             <Route path="/jobs"><Jobs /></Route>
+            <Route path="/lists"><Lists /></Route>
           </Switch>
         </Page>
       </BrowserRouter>
