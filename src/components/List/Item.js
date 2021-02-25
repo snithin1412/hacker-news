@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import {api} from './api';
+import {api} from '../API/api';
 import moment from 'moment';
 
 const Item = ({id, number}) => {

@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import ListItem from './ListItem';
+import ListItem from '../List/ListItem';
 
 const Story = ({apiFunc}) => {
 

@@ -1,11 +1,11 @@
 import './App.css';
-import Page from './components/Page';
+import Page from './components/common/Page';
 import {BrowserRouter, Route, Switch} from "react-router-dom";
-import Top from './components/Top';
-import Newest from './components/Newest';
-import Ask from './components/Ask';
-import Show from './components/Show';
-import Jobs from './components/Jobs';
+import Top from './components/stories/Top';
+import Newest from './components/stories/Newest';
+import Ask from './components/stories/Ask';
+import Show from './components/stories/Show';
+import Jobs from './components/stories/Jobs';
 
 function App() {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
-import {api} from './api';
-import Story from './Story';
+import {api} from '../API/api';
+import Story from '../common/Story';
 
 const Show = () => {
     return (
